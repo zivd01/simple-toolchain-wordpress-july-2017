@@ -2,4 +2,5 @@
 applications:
 - memory: 512M
   instances: 1
+  stack: cflinuxfs2
   buildpack: https://github.com/zendtech/zend-server-php-buildpack-bluemix
